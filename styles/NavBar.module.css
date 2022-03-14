@@ -1,0 +1,28 @@
+.container {
+    top: 0;
+    max-width: 1200px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+}
+
+.logo > h1 {
+    font-size: 50px;
+}
+
+.container > ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 10px;
+    font-size: 30px;
+}
