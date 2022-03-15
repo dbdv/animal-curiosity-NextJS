@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'ubuntu_condensedregular';
-    src: url('https://animal-curiosity-next-js.vercel.app/assets/webfontkit/ubuntucondensed-regular-webfont.woff2') format('woff2'),
-         url('https://animal-curiosity-next-js.vercel.app/assets/webfontkit/ubuntucondensed-regular-webfont.woff') format('woff');
+    src: url('https://animal-curiosity-next-js.vercel.app/assets/webfontkit/ubuntucondensed.woff2') format('woff2'),
+         url('https://animal-curiosity-next-js.vercel.app/assets/webfontkit/ubuntucondensed.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
