@@ -1,14 +1,15 @@
 .container {
     top: 0;
-    max-width: 1200px;
+    width: 1200px;
+    max-height: 80px;
     position: absolute;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 20px;
 }
 
-.logo {
+.logo > a {
     display: flex;
     align-items: center;
     justify-content: left;
