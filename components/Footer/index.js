@@ -12,7 +12,7 @@ export default function Footer() {
           Linkedin
         </a>
         <a target="_blank" rel="noopener noreferrer">
-          Dev's website
+          Dev`s website
         </a>
       </div>
     </div>
