@@ -1,13 +1,15 @@
 :root {
-  --bg-color: #14213D;
-  --main-color: #FCA311;
-  --secondary-color: #E5E5E5;
+  scrollbar-color: #333333 #999999 !important;
+  scrollbar-width: none !important;
+  --bg-color: 20, 33, 61;
+  --main-color: 252, 163, 17;
+  --secondary-color: 229, 229, 229;
 }
 
 html,
 body {
-  background: var(--bg-color);
-  color: var(--secondary-color);
+  background: rgba(var(--bg-color));
+  color: rgba(var(--secondary-color));
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,

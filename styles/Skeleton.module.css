@@ -1,11 +1,18 @@
 .skeleton {
-    display: flex;
-    flex-direction: column;
-    max-width: 1200px;
-    margin: 0 auto;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
 }
 
 .navBar {
-    flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.body {
+  width: 1200px;
+  height: 100vh;
+  margin-top: 90px;
+  padding: 10px;
 }

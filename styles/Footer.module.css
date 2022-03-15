@@ -1,12 +1,20 @@
 .footer {
-    max-width: 1200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.2rem;
 }
 
 .links {
-    composes: footer;
-    gap: 5px;
+  composes: footer;
+  gap: 5px;
+}
+
+.links > a:hover {
+  transition: 0.5s;
+  font-size: 1.3rem;
+  color: white;
+  text-decoration: underline;
 }

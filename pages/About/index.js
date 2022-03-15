@@ -1,11 +1,11 @@
 import Footer from "../../components/Footer";
 import NavBar from "../../components/NavBar";
 import Skeleton from "../../components/Skeleton";
-import Styles from '../../styles/About.module.css';
+import Styles from '../../styles/Skeleton.module.css';
 
 export default function About() {
   const content = (
-    <div className={Styles.about}>
+    <div className={Styles.body}>
       <h1>¿What its about Animal Curiosity?</h1>
       <p>
         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa

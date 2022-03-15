@@ -19,7 +19,7 @@ export default function Home() {
         <NavBar/>
         <h1 className={styles.title}>Welcome to Animal Curiosity!</h1>
         <p>
-          This website was made with the purpose of learn NExt JS. Enjoy the
+          This website was made with the purpose of learn Next JS. Enjoy the
           visit.
         </p>
       </main>
